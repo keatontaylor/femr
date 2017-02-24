@@ -11,7 +11,7 @@ import sbt._
 object ApplicationBuild extends Build {
 
   val appName = "fEMR"
-  val appVersion = "2.3.1-beta"
+  val appVersion = "2.3.3-beta"
   val currentScalaVersion = "2.11.7"
 
   val appDependencies = Seq(
@@ -19,8 +19,8 @@ object ApplicationBuild extends Build {
     javaCore,
     javaJdbc,
     evolutions,
-    "com.google.inject" % "guice" % "4.0",
-    "mysql" % "mysql-connector-java" % "5.1.36",
+    "com.google.inject" % "guice" % "4.1.0",
+    "mysql" % "mysql-connector-java" % "5.1.40",
     "org.mindrot" % "jbcrypt" % "0.3m",
     "org.apache.commons" % "commons-collections4" % "4.0",
     "com.google.code.gson" % "gson" % "2.3.1",
